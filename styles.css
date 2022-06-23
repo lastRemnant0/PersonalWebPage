@@ -1,0 +1,35 @@
+/* Fonts from google font and how to use them 
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root {
+  --main-color: #333;
+  --main-purple: #7045a8;
+  --main-red: #f24c4c;
+  --main-white-back: #f5f5f5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: var(--main-color);
+}
