@@ -136,6 +136,13 @@ h6 {
   #welcome-texts-container p {
     font-size: 1.4rem;
   }
+
+  #welcome-section img {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    content: "";
+  }
 }
 
 @media only screen and (max-width: 950px) {
@@ -284,6 +291,15 @@ h2.project-info {
   .reach-me-link,
   .reach-me-link i {
     font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #contact-section h1 {
+    font-size: 3.5rem;
+  }
+  #contect-section p {
+    font-size: 1.7rem;
   }
 }
 
